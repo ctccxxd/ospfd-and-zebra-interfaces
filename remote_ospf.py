@@ -44,7 +44,7 @@ def ssh_close( _ssh_fd ):
 
 
 def ftpModuleFile(serverIp,localFile):
-    localpath = r'//home//xiaodong' + os.sep + localFile
+    localpath = r'//home//dengyl//ENV//lvs_config_platform//ospfd-and-zebra-interfaces' + os.sep + localFile
     remotepath = '//home' + os.sep+localFile
     t = paramiko.Transport(( serverIp ,22))
     t.connect(username = serverUser , password = serverPwd)
