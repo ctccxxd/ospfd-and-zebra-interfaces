@@ -4,7 +4,7 @@ import os
 import sys
 import time
 serverUser = 'root'
-serverPwd = '1122'
+serverPwd = 'PYTym9bh'
 para=sys.argv[1:]
 
 arg={}

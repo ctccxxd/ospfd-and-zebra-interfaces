@@ -4,7 +4,7 @@ import os
 import sys
 import time
 serverUser = 'root'
-serverPwd = '11223'
+serverPwd = 'PYTym9bh'
 
 
 
@@ -79,8 +79,8 @@ for i in para:
        continue
    arg[i.split(':')[0]].append(i.split(':')[1])
 
-t=input_bug_fix(arg['core'],arg['vip'],arg['tip'])
-arg['core'],arg['vip'],arg['tip']=t[0],t[1],t[2]
+t=input_bug_fix(arg['segment'],arg['vip'],arg['tip'])
+arg['segment'],arg['vip'],arg['tip']=t[0],t[1],t[2]
 serverIp=arg['tip'][0]
 arg.pop('tip')
 remote_zebra(serverIp)
