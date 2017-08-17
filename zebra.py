@@ -30,7 +30,7 @@ for i in j:
 
 netmask_coreswitch=24
 
-coreswitch_ip=arg['core']
+coreswitch_ip=arg['routerid']
 coreswitch_ip.append(0)
 arg_eth0=coreswitch_ip
 
